@@ -8,18 +8,17 @@ Welcome to GLTEN Help's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-   editors/quickstart
-   editors/experimentOverview
-   editors/peopleOrganizations
-   editors/site
-   editors/climateProperties
-   editors/soilProperties
-   editors/designPhase
-   editors/cropRotations
-   editors/factors
-   editors/measuredVariables
-   editors/relatedResources
+   quickstart
+   experimentOverview
+   peopleOrganizations
+   site
+   climateProperties
+   soilProperties
+   designPhase
+   cropRotations
+   factors
+   measuredVariables
+   relatedResources
 
 
 
