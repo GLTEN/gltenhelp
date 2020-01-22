@@ -3,30 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to GLTEN Help's documentation!
+Welcome to the GLTEN Help documentation!
 ======================================
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 3
     :caption: Editing Experiment Metadata
 
     quickstart
     experimentOverview
     peopleOrganizations
     site
-    climateProperties
-    soilProperties
+
     designPhase
-    cropRotations
-    factors
-    measuredVariables
+    
     relatedResources
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
