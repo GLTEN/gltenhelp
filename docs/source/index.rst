@@ -16,12 +16,3 @@ Welcome to the GLTEN Help documentation!
     site
     designPhase
     relatedResources
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
