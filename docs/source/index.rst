@@ -7,14 +7,21 @@ Welcome to the GLTEN Help documentation!
 ======================================
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     :caption: Editing Experiment Metadata
 
     quickstart
     experimentOverview
     peopleOrganizations
     site
-
     designPhase
-    
     relatedResources
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
