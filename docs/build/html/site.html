@@ -88,12 +88,18 @@
 <li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
 <li class="toctree-l1"><a class="reference internal" href="experimentOverview.html">Experiment Overview</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="experimentOverview.html#mandatory-fields">Mandatory fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="experimentOverview.html#optional-fields">Optional fields</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="peopleOrganizations.html">People and Organizations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="peopleOrganizations.html">People and Organizations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="peopleOrganizations.html#organizations">Organizations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="peopleOrganizations.html#people">People</a></li>
+</ul>
+</li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Site</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#climateproperties">climateProperties</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#soil-properties">Soil Properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#site-location">Site Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#soil-information">Soil Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#climate-information">Climate Information</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="designPhase.html">Design Phase</a><ul>
@@ -170,11 +176,84 @@
   <div class="section" id="site">
 <h1>Site<a class="headerlink" href="#site" title="Permalink to this headline">¶</a></h1>
 <p>The site tab is used to capture metadata about your LTE’s location and environment.</p>
-<div class="section" id="climateproperties">
-<h2>climateProperties<a class="headerlink" href="#climateproperties" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="site-location">
+<h2>Site Location<a class="headerlink" href="#site-location" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="mandatory-fields">
+<h3>Mandatory fields<a class="headerlink" href="#mandatory-fields" title="Permalink to this headline">¶</a></h3>
+<dl>
+<dt>Site Name</dt><dd><p>This is the name by which your experiment site is commonly known. This can be the same as the experiment name.</p>
+</dd>
+<dt>Site Latitude and Site Longitude</dt><dd><p>The site latitude and longitude provide a point location for your LTE site and are required for adding your LTE
+to the GLTEN.org experiments map.</p>
+<p>The site latitude and longitude must be provided in decimal degrees, not degrees, minutes and seconds. If you do
+not know your LTE site location coordinates as decimal degrees you can use <a class="reference external" href="https://www.latlong.net/">https://www.latlong.net/</a>
+to find your site on a map then copy and paste a point coordinate.</p>
+</dd>
+</dl>
 </div>
-<div class="section" id="soil-properties">
-<h2>Soil Properties<a class="headerlink" href="#soil-properties" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="soil-information">
+<h2>Soil Information<a class="headerlink" href="#soil-information" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Mandatory fields<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl>
+<dt>WRB dominant soil type</dt><dd><p>This is the World Reference Book dominant soil type for your site and provides a useful indicator of soil properties.</p>
+<p>If you do not know the WRB soil type for your site, either use <a class="reference external" href="https://soilgrids.org">https://soilgrids.org</a> to identify a predicated
+class for your location, or select the <em>Don’t know</em> option from the drop down list.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="recommended-fields">
+<h3>Recommended fields<a class="headerlink" href="#recommended-fields" title="Permalink to this headline">¶</a></h3>
+<dl>
+<dt>Soil description</dt><dd><p>You can use the soil description text box to provide a text description of your soil. If you have measured properties,
+such as bulk density or SOC, use the <em>Soil Properties</em> list to add them.</p>
+</dd>
+<dt>Soil properties</dt><dd><p>You can use the soil properties section to add more detailed soil physics and chemistry information such as sand content;
+soil organic carbon; plant available phosphorous. There is no limit to the number of soil properties you add.</p>
+<p>For each soil property you can add the following information:</p>
+<ul class="simple">
+<li><p>Soil depth: provide a minimum and maximum range for the soil depth the property refers to. If you only have one depth value, enter it in the minimum depth field</p></li>
+<li><p>soil depth units.</p></li>
+<li><p>Is baseline: inidicates whether the soil property was measured at baseline, i.e. before the LTE started.</p></li>
+<li><p>Reference year: the year when the soil property was sampled/measured.</p></li>
+<li><p>Is estimated: Check this box to indicate the property has been estimated i.e using a model. This may be the case for baseline values from older LTEs.</p></li>
+<li><p>Typical: this is an average value for the soil property.</p></li>
+<li><p>Minium and Maxium: this is the range of values for the soil property.</p></li>
+<li><p>Units: the measurement units for the soil property.</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="climate-information">
+<h2>Climate Information<a class="headerlink" href="#climate-information" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id2">
+<h3>Mandatory fields<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<dl>
+<dt>Köppen Climate climate classification</dt><dd><p>This is the Köppen climate classification for your site and provides a useful indicator of climate poperties.</p>
+<p>If you do not know the classification for your site, either use maps at <a class="reference external" href="https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification#Other_K%C3%B6ppen_climate_maps">Köppen Climate climate classification</a>
+to identify the class or select the <em>Don’t know</em> option from the drop down list.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="id3">
+<h3>Recommended fields<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<dl>
+<dt>Climate Description</dt><dd><p>You can use the climate description text box to provide a text description of your climate. If you have measured properties,
+such as temperature or rainfall, use the <em>Climate Properties</em> list to add them.</p>
+</dd>
+<dt>Climate properties</dt><dd><p>You can use the climate properties to add more detailed climate information. It is recommended to use averged annual properties (i.e. annual precipitation).</p>
+<p>For each climate property you can add the following information:</p>
+<ul class="simple">
+<li><p>Start year and End year: to indicate the period of years the property refers to.</p></li>
+<li><p>Mean: value for the period.</p></li>
+<li><p>Minimum and Maximum values: for the period.</p></li>
+<li><p>Units: the measurement unit for the climate property.</p></li>
+</ul>
+</dd>
+</dl>
+</div>
 </div>
 </div>
 
