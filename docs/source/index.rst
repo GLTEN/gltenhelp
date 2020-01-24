@@ -14,7 +14,7 @@ Welcome to the GLTEN Help documentation!
     experimentOverview
     peopleOrganizations
     site
-    designPhase
+    designPeriod
     relatedResources
 
     :caption: Understanding the GLTEN Metadata

@@ -10,7 +10,7 @@ Contents
     experimentOverview
     peopleOrganizations
     site
-    designPhase
+    designPeriod
     relatedResources
     
     :caption: Understanding the GLTEN Metadata
