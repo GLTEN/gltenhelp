@@ -17,7 +17,7 @@ Not every change needs to be documented as a different design phase. The recomme
 such as introducing a new factor. 
 
 Recommended fields
-==================
+------------------
 
 Design Period Name
     The name given to the design period. If you only have one design period this can be left blank, but it is recommended to provide a name for experiments with two or more periods 
@@ -41,40 +41,63 @@ Number of replicates
     The number of replicates (i.e. plots receiving the same factor levels. 
 
 Optional fields
-===============
+---------------
 
 Harvests per year
     Indicates the maximum number of harvests per year 
 
 Factorial
-    Indicates whether or not the experiment is factorial, i.e all combinations of factor levels are present in the experiment.
+    Indicates whether or not the experiment is factorial, i.e all combinations of factor levels 
+    are present in the experiment.
 
-*****
 Crops
-*****
+=====
 
 Add the crops grown on your experiment here. In most cases you shouldn't specify cultivars or varieties here. 
 If your LTE is testing different cultivars you should specify these as a *Factor* 
 
 If crops are grown in rotation you can specify the rotation order in the next section. 
 
-**************
 Crop Rotations
-**************
+==============
 
 The crop rotation section lets you describe the crop rotation(s) used in your experiment. 
 
-If you use crop rotation as a factor in your experiment you should still enter the rotations here and **not** in the *Factors* section. 
+If you use crop rotation as a factor in your experiment you should still enter the rotations here 
+and **not** in the *Factors* section. 
 You should use the *Is factor?* option to indicate the crop rotation is a factor catgegory. 
 
 For more detail on crop rotation terminology please review the :ref:`crop rotations help <cropRotations>`. 
 
-*******
-Factors
-*******
+Mandatory fields
+----------------
+
+Crop rotation name
+    This is a meaningful name for the rotation and is especially helpful if you have several different rotations
+
+Is factor
+    Check this box if crop rotations are used as an experimental factor.
+
+Phasing
+    Use this to state whether or not the rotation is fully phased (i.e. all phases of the rotation are present each year) or not.
+
+Phases
+    Add each crop as a phase. The drop down list is generated from the list of crops added to the previous *Crops* section, 
+    so make sure you have added all the crops you want to use (if not you can easily go back and add them).
+    
+    If two crops occur in the same phase click the *same phase* button for the later crop. 
+    You now should see the two crops are now listed in the same phase.
+
+Optional fields:
+----------------
+
+Start Year and End Year
+    If the crop rotations have changed during the design period you can use these fields to state when the rotation was used. 
+
+factors
+=======
 
 For more detail on factors terminology please review the :ref:`factors help <factors>`.
 
-******************
 Measured Variables
-******************
+==================

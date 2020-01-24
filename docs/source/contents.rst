@@ -13,6 +13,8 @@ Contents
     designPeriod
     relatedResources
     
+.. toctree::
+    :maxdepth: 3
     :caption: Understanding the GLTEN Metadata
 
     cropRotations
