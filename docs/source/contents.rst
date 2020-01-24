@@ -3,7 +3,7 @@ Contents
 ########
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
     :caption: Editing Experiment Metadata
 
     quickstart
@@ -14,7 +14,7 @@ Contents
     relatedResources
     
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
     :caption: Understanding the GLTEN Metadata
 
     cropRotations

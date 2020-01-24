@@ -2,6 +2,9 @@
 Design Period
 #############
 
+Experiment design
+#################
+
 Every long-term experiment must have an experimental design. In the GLTEN metadata schema, the experiment design can include the following:
 
 * Experiment design, including number of replicates and plots.
@@ -17,7 +20,7 @@ Not every change needs to be documented as a different design phase. The recomme
 such as introducing a new factor. 
 
 Recommended fields
-------------------
+******************
 
 Design Period Name
     The name given to the design period. If you only have one design period this can be left blank, but it is recommended to provide a name for experiments with two or more periods 
@@ -41,7 +44,7 @@ Number of replicates
     The number of replicates (i.e. plots receiving the same factor levels. 
 
 Optional fields
----------------
+***************
 
 Harvests per year
     Indicates the maximum number of harvests per year 
@@ -51,7 +54,7 @@ Factorial
     are present in the experiment.
 
 Crops
-=====
+#####
 
 Add the crops grown on your experiment here. In most cases you shouldn't specify cultivars or varieties here. 
 If your LTE is testing different cultivars you should specify these as a *Factor* 
@@ -59,7 +62,7 @@ If your LTE is testing different cultivars you should specify these as a *Factor
 If crops are grown in rotation you can specify the rotation order in the next section. 
 
 Crop Rotations
-==============
+##############
 
 The crop rotation section lets you describe the crop rotation(s) used in your experiment. 
 
@@ -70,7 +73,7 @@ You should use the *Is factor?* option to indicate the crop rotation is a factor
 For more detail on crop rotation terminology please review the :ref:`crop rotations help <cropRotations>`. 
 
 Mandatory fields
-----------------
+****************
 
 Crop rotation name
     This is a meaningful name for the rotation and is especially helpful if you have several different rotations
@@ -88,16 +91,16 @@ Phases
     If two crops occur in the same phase click the *same phase* button for the later crop. 
     You now should see the two crops are now listed in the same phase.
 
-Optional fields:
-----------------
+Optional fields
+***************
 
 Start Year and End Year
     If the crop rotations have changed during the design period you can use these fields to state when the rotation was used. 
 
-factors
-=======
+Factors
+#######
 
 For more detail on factors terminology please review the :ref:`factors help <factors>`.
 
 Measured Variables
-==================
+******************
