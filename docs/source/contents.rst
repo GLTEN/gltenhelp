@@ -3,7 +3,7 @@ Contents
 ########
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :caption: Editing Experiment Metadata
 
     quickstart
@@ -13,3 +13,7 @@ Contents
     designPhase
     relatedResources
     
+    :caption: Understanding the GLTEN Metadata
+
+    cropRotations
+    factors

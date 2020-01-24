@@ -1,6 +1,6 @@
-############
+#############
 Design Period
-############
+#############
 
 Every long-term experiment must have an experimental design. In the GLTEN metadata schema, the experiment design can include the following:
 
@@ -53,14 +53,27 @@ Factorial
 Crops
 *****
 
+Add the crops grown on your experiment here. In most cases you shouldn't specify cultivars or varieties here. 
+If your LTE is testing different cultivars you should specify these as a *Factor* 
+
+If crops are grown in rotation you can specify the rotation order in the next section. 
 
 **************
 Crop Rotations
 **************
 
+The crop rotation section lets you describe the crop rotation(s) used in your experiment. 
+
+If you use crop rotation as a factor in your experiment you should still enter the rotations here and **not** in the *Factors* section. 
+You should use the *Is factor?* option to indicate the crop rotation is a factor catgegory. 
+
+For more detail on crop rotation terminology please review the :ref:`crop rotations help <cropRotations>`. 
+
 *******
 Factors
 *******
+
+For more detail on factors terminology please review the :ref:`factors help <factors>`.
 
 ******************
 Measured Variables

@@ -16,3 +16,8 @@ Welcome to the GLTEN Help documentation!
     site
     designPhase
     relatedResources
+
+    :caption: Understanding the GLTEN Metadata
+
+    cropRotations
+    factors
