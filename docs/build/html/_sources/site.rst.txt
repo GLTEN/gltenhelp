@@ -64,7 +64,7 @@ Climate Information
 Mandatory fields
 ================
 
-Köppen Climate climate classification
+Köppen climate classification
     This is the Köppen climate classification for your site and provides a useful indicator of climate poperties.
 
     If you do not know the classification for your site, either use maps at `Köppen Climate climate classification <https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification#Other_K%C3%B6ppen_climate_maps>`_

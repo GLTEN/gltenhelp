@@ -7,7 +7,7 @@ The Experiment Overview tab lets you provide basic metadata for your LTE.
 Mandatory fields
 ================
 
-As a minimum you should complete the following:
+You should complete the following fields:
 
 Experiment Name
     This is the name by which the LTE is commonly known.
@@ -19,16 +19,16 @@ End Year
     If the experiment has ended, the year it ended.
 
 Ongoing
-    If the experiment is still running, check this box
+    If the experiment is still running, check this box.
 
 Objective
-    Use this text box to describe the primary scientific objectives of the LTE
+    Use this text box to describe the primary scientific objectives of the LTE.
 
 Data Access Statement
-    The Data Access Statement tells other glten.org users about the availability of data from the LTE. Select a statement from the list of provided options. You can provide further details using the *Data Access Notes* text box
+    The Data Access Statement provides information about how data from your LTE can be accessed. Select a statement from the list of provided options. You can provide further details using the *Data Access Notes* text box.
 
 Data Licence
-    This indicates to the glten.org user the licence under which you normally provide data. If you do not have an agreed lice for datasets, select the 'don't know' option.
+    This indicates the data license under which you normally provide data. If you do not have an agreed license for datasets, select the 'don't know' option.
 
 Data Policy
     A data policy provides glten.org users with information about the conditions for accessing your LTE datasets. If you do not have a data policy select the 'No' option. If your data policy is online you should provide the web address in the 'Data Policy URL' text box.
@@ -36,7 +36,7 @@ Data Policy
 Optional fields
 ===============
 
-Answering these fields will give glten.org users more information about your LTE.
+You do not need toAnswering these fields will give glten.org users more information about your LTE.
 
 Local Identifier
     This is an identifier commonly used to identify the experiment.

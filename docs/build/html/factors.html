@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Experiment Factors &mdash; GLTEN Help 1.0 documentation</title>
+  <title>Factors &mdash; GLTEN Help 1.0 documentation</title>
   
 
   
@@ -35,8 +35,8 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Measured Variables" href="measuredVariables.html" />
-    <link rel="prev" title="Crop rotations" href="cropRotations.html" /> 
+    <link rel="next" title="GLTEN and Vocabularies" href="ontologies.html" />
+    <link rel="prev" title="Crop Rotations" href="cropRotations.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -46,13 +46,16 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <div class="wy-side-nav-search"  style="background: white" >
           
 
           
-            <a href="index.html" class="icon icon-home"> GLTEN Help
+            <a href="index.html">
           
 
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -81,18 +84,56 @@
             
             
               <p class="caption"><span class="caption-text">Editing Experiment Metadata</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
-<li class="toctree-l1"><a class="reference internal" href="experimentOverview.html">Experiment Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="peopleOrganizations.html">People and Organizations</a></li>
-<li class="toctree-l1"><a class="reference internal" href="site.html">Site</a></li>
-<li class="toctree-l1"><a class="reference internal" href="climateProperties.html">Climate Properties</a></li>
-<li class="toctree-l1"><a class="reference internal" href="soilProperties.html">Soil Properties</a></li>
-<li class="toctree-l1"><a class="reference internal" href="designPhase.html">Design Phase</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cropRotations.html">Crop rotations</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Experiment Factors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="measuredVariables.html">Measured Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="experimentOverview.html">Experiment Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="experimentOverview.html#mandatory-fields">Mandatory fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="experimentOverview.html#optional-fields">Optional fields</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="peopleOrganizations.html">People and Organizations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="peopleOrganizations.html#organizations">Organizations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="peopleOrganizations.html#people">People</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="site.html">Site</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="site.html#site-location">Site Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="site.html#soil-information">Soil Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="site.html#climate-information">Climate Information</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="designPeriod.html">Design Period</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="designPeriod.html#experiment-design">Experiment design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="designPeriod.html#crops">Crops</a></li>
+<li class="toctree-l2"><a class="reference internal" href="designPeriod.html#crop-rotations">Crop Rotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="designPeriod.html#factors">Factors</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="relatedResources.html">Related Resources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Understanding the GLTEN Metadata</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="cropRotations.html">Crop Rotations</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Factors</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-a-factor">What is a factor?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-do-we-use-the-term-factor">Why do we use the term factor?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-a-factor-level">What is a factor level?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-a-factor-level-combination">What is a factor level combination?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cropRotations.html">Crop Rotations</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Factors</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-a-factor">What is a factor?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-do-we-use-the-term-factor">Why do we use the term factor?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-a-factor-level">What is a factor level?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-a-factor-level-combination">What is a factor level combination?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ontologies.html">GLTEN and Vocabularies</a></li>
+</ul>
+<p class="caption"><span class="caption-text">GLTEN API</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api.html">GLTEN API</a></li>
 </ul>
 
             
@@ -138,7 +179,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Experiment Factors</li>
+      <li>Factors</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -157,8 +198,66 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="experiment-factors">
-<h1>Experiment Factors<a class="headerlink" href="#experiment-factors" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="factors">
+<span id="id1"></span><h1>Factors<a class="headerlink" href="#factors" title="Permalink to this headline">¶</a></h1>
+<p>Factors are the treatments or interventions which are manipulated on your experiment.</p>
+<div class="section" id="what-is-a-factor">
+<h2>What is a factor?<a class="headerlink" href="#what-is-a-factor" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="why-do-we-use-the-term-factor">
+<h2>Why do we use the term factor?<a class="headerlink" href="#why-do-we-use-the-term-factor" title="Permalink to this headline">¶</a></h2>
+<p>People use several different terms to describe factors, including treatments, variables and interventions.
+We use the term factor to be consistent with published formal ontologies for statistics and agriculture.
+We have deliberately avoided the term <em>treatment</em> as this can be confused standard farm practice for an experiment.</p>
+<p>For example, if nitrogen fertilizer is applied at different rates to different plots then nitrogen fertilization is the
+<em>factor</em> and each rate is a different <em>factor level</em>. Nitrogen <strong>should</strong> therefore be documented as a factor in the GLTEN
+metadata schema. If phosphorous is applied to the experiment plots but at the same rate for all plots
+then it is not considered a factor. In this example phosphorous is part of standard management practice for the
+experiment and <strong>should not</strong> be documented as a factor in the GLTEN metadata schema.</p>
+<p>A factor can therefore be anything which is varied across the experiment by the researcher. A factor is
+a general type, range or category of treatments.</p>
+</div>
+<div class="section" id="what-is-a-factor-level">
+<h2>What is a factor level?<a class="headerlink" href="#what-is-a-factor-level" title="Permalink to this headline">¶</a></h2>
+<p>A factor level is one of the different interventions for a factor. For example, for the factor Nitrogen fertilization, rates of 50, 100, 150 and 200 kgN/ha
+would each be a factor level; the factor <em>Nitrogen fertilization</em> has 4 factor levels.</p>
+<p>A factor level can also be categorical. For example, the factor <em>tillage process</em> can have 3 factor level categories:
+no tillage, minimum tillage and conventional tillage</p>
+</div>
+<div class="section" id="what-is-a-factor-level-combination">
+<h2>What is a factor level combination?<a class="headerlink" href="#what-is-a-factor-level-combination" title="Permalink to this headline">¶</a></h2>
+<p>In an experiment with two or more factors, a factor level combinations is a group of one factor level from some or all of the
+different factors.</p>
+<p>For example, an experiment has two different factors with the following factor levels:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Nitrogen fertilizer exposure (factor)</dt><dd><ol class="arabic simple">
+<li><p>0 kgN/ha (factor level)</p></li>
+<li><p>50 kgN/ha</p></li>
+<li><p>100 kgN/ha</p></li>
+<li><p>150 kgN/ha</p></li>
+<li><p>200 kgN/ha</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Tillage process</dt><dd><ol class="arabic simple">
+<li><p>no tillage</p></li>
+<li><p>minimum tillage</p></li>
+<li><p>conventional tillage</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+<p>An example of a factor level combination here would be 50 kgN/ha x minimum tillage.
+If this is a full factorial experiment, where every possible combination of factor levels are present
+there would be 15 factor level combinations in the study (5 Nitrogen levels x 3 tillage levels).</p>
+<p>In the GLTEN metadata schema, for a full factorial experiment it is not necessary to describe every factor level combination.
+The factor level combination section is reserved instead for non-full factorial experiments. Using the factor level
+combinations section you can describe the combinations which are present.</p>
+</div>
 </div>
 
 
@@ -169,10 +268,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="measuredVariables.html" class="btn btn-neutral float-right" title="Measured Variables" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="ontologies.html" class="btn btn-neutral float-right" title="GLTEN and Vocabularies" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="cropRotations.html" class="btn btn-neutral float-left" title="Crop rotations" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="cropRotations.html" class="btn btn-neutral float-left" title="Crop Rotations" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

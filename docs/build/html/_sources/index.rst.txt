@@ -7,12 +7,30 @@ Welcome to the GLTEN Help documentation!
 ========================================
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Editing Experiment Metadata
 
     quickstart
+
+.. toctree::
+    :maxdepth: 4
+    :caption: Editing Experiment Metadata
+
+    editorIntroduction
     experimentOverview
     peopleOrganizations
     site
-    designPhase
+    designPeriod
     relatedResources
+
+.. toctree::
+    :maxdepth: 4
+    :caption: Understanding the GLTEN Metadata
+
+    cropRotations
+    factors
+    ontologies
+
+.. toctree::
+    :maxdepth: 4
+    :caption: GLTEN API
+
+    api
