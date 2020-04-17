@@ -4,7 +4,7 @@
 Factors
 #######
 
-Factors are the treatments or interventions which are manipulated on your experiment.
+Factors are the treatments or interventions which are manipulated on the LTE.
 
 What is a factor?
 =================
@@ -13,17 +13,16 @@ Why do we use the term factor?
 ==============================
 
 People use several different terms to describe factors, including treatments, variables and interventions.
-We use the term factor to be consistent with published formal ontologies for statistics and agriculture. 
+We use the term factor to be consistent with published formal controlled vocabularies and ontologies for statistics and agriculture. 
 We have deliberately avoided the term *treatment* as this can be confused standard farm practice for an experiment.
 
 For example, if nitrogen fertilizer is applied at different rates to different plots then nitrogen fertilization is the 
 *factor* and each rate is a different *factor level*. Nitrogen **should** therefore be documented as a factor in the GLTEN
-metadata schema. If phosphorous is applied to the experiment plots but at the same rate for all plots 
-then it is not considered a factor. In this example phosphorous is part of standard management practice for the 
+metadata schema. If potassium is applied to the experiment plots but at the same rate for all plots 
+then it is not considered a factor. In this example potassium is part of standard management practice for the 
 experiment and **should not** be documented as a factor in the GLTEN metadata schema.
 
-A factor can therefore be anything which is varied across the experiment by the researcher. A factor is
-a general type, range or category of treatments. 
+A factor can therefore be anything which is varied across the experiment by the researcher. 
 
 What is a factor level?
 =======================

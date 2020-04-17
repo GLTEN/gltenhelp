@@ -1,0 +1,319 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Introduction to the GLTEN metadata editor &mdash; GLTEN Help 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Experiment Overview" href="experimentOverview.html" />
+    <link rel="prev" title="Quick Start" href="quickstart.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Editing Experiment Metadata</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction to the GLTEN metadata editor</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#getting-access">Getting access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-metadata-editor">The Metadata Editor</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="experimentOverview.html">Experiment Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="experimentOverview.html#mandatory-fields">Mandatory fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="experimentOverview.html#optional-fields">Optional fields</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="peopleOrganizations.html">People and Organizations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="peopleOrganizations.html#organizations">Organizations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="peopleOrganizations.html#people">People</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="site.html">Site</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="site.html#site-location">Site Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="site.html#soil-information">Soil Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="site.html#climate-information">Climate Information</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="designPeriod.html">Design Period</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="designPeriod.html#experiment-design">Experiment design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="designPeriod.html#crops">Crops</a></li>
+<li class="toctree-l2"><a class="reference internal" href="designPeriod.html#crop-rotations">Crop Rotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="designPeriod.html#factors">Factors</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="relatedResources.html">Related Resources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Understanding the GLTEN Metadata</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="cropRotations.html">Crop Rotations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="factors.html">Factors</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="factors.html#what-is-a-factor">What is a factor?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="factors.html#why-do-we-use-the-term-factor">Why do we use the term factor?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="factors.html#what-is-a-factor-level">What is a factor level?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="factors.html#what-is-a-factor-level-combination">What is a factor level combination?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ontologies.html">GLTEN and Vocabularies</a></li>
+</ul>
+<p class="caption"><span class="caption-text">GLTEN API</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api.html">GLTEN API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">GLTEN Help</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Introduction to the GLTEN metadata editor</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/editorIntroduction.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="introduction-to-the-glten-metadata-editor">
+<h1>Introduction to the GLTEN metadata editor<a class="headerlink" href="#introduction-to-the-glten-metadata-editor" title="Permalink to this headline">¶</a></h1>
+<p>The GLTEN metadata editor is designed to collect information, or metadata, about
+long-term agricultural experiments.</p>
+<div class="section" id="getting-access">
+<h2>Getting access<a class="headerlink" href="#getting-access" title="Permalink to this headline">¶</a></h2>
+<p>To submit an LTE you need to be a GLTEN member and have a glten.org account.
+If you have an LTE that you would like to add contact the GLTEN Coordinator at
+<a class="reference external" href="mailto:glten&#37;&#52;&#48;rothamsted&#46;ac&#46;uk">glten<span>&#64;</span>rothamsted<span>&#46;</span>ac<span>&#46;</span>uk</a>.</p>
+</div>
+<div class="section" id="the-metadata-editor">
+<h2>The Metadata Editor<a class="headerlink" href="#the-metadata-editor" title="Permalink to this headline">¶</a></h2>
+<p>The editor is organized into five main tabs:</p>
+<ol class="arabic simple">
+<li><p>Experiment overview</p></li>
+<li><p>People/Organizations</p></li>
+<li><p>Site</p></li>
+<li><p>Design</p></li>
+<li><p>Related publications</p></li>
+</ol>
+<p>You musy complete the mandatory fields for each tab before submitting your LTE metadata.</p>
+<div class="section" id="about-mandatory-fields">
+<h3>About Mandatory Fields<a class="headerlink" href="#about-mandatory-fields" title="Permalink to this headline">¶</a></h3>
+<p>Mandatory fields must be answered. Providing data for these fields will provide other GLTEN
+users with enough information to have a basic understanding your LTE.</p>
+</div>
+<div class="section" id="about-optional-fields">
+<h3>About Optional Fields<a class="headerlink" href="#about-optional-fields" title="Permalink to this headline">¶</a></h3>
+<p>You do not need to provide information for optional fields, but doing so will give other
+GLTEN users a better understanding of your LTE.</p>
+</div>
+<div class="section" id="about-controlled-vocabulary-fields">
+<h3>About Controlled Vocabulary Fields<a class="headerlink" href="#about-controlled-vocabulary-fields" title="Permalink to this headline">¶</a></h3>
+<p>Many of the metadata editor fields use controlled vocabularies to recommend terms.
+Using a controlled vocabulary term improves the quality and interoperability of your metadata
+as it means metadata is described using well defined and understood terms.
+In many casesthe controlled vocabulary fields will allow you to find terms using synonyms, for example,
+In the <em>crops</em> field, typing <em>alfalfa</em> or <em>lucerne</em> will both prompt for <em>Medicago sativa</em>. In
+this case <em>Medicago sativa</em> is the preferred name.</p>
+</div>
+<div class="section" id="can-i-save-an-incomplete-metadata-entry">
+<h3>Can I save an incomplete metadata entry?<a class="headerlink" href="#can-i-save-an-incomplete-metadata-entry" title="Permalink to this headline">¶</a></h3>
+<p>Yes, you can save your metadata and finish editing it at another time. You cannot submit the
+metadata for publication until all mandatory fields have been completed.</p>
+</div>
+<div class="section" id="submitting-your-metadata">
+<h3>Submitting your metadata<a class="headerlink" href="#submitting-your-metadata" title="Permalink to this headline">¶</a></h3>
+<p>Once you have finished editing your metadata you can use the <em>Publish</em> tab to
+request review and publication of your LTE metadata. The GLTEN coordinator will review your
+LTE metadata and publish it. If the GLTEN coordinator finds a mistake they will contact you
+to correct it.</p>
+</div>
+<div class="section" id="updating-published-metadata">
+<h3>Updating published metadata<a class="headerlink" href="#updating-published-metadata" title="Permalink to this headline">¶</a></h3>
+<p>Once you have published your metadata you can update it at any time, but you must follow
+the submission process as described above.</p>
+</div>
+<div class="section" id="how-long-does-it-take-to-create-a-metadata-entry">
+<h3>How long does it take to create a metadata entry?<a class="headerlink" href="#how-long-does-it-take-to-create-a-metadata-entry" title="Permalink to this headline">¶</a></h3>
+<p>Long-term experiments are usually complex and you should spend some time considering
+what information you want to provide. Having this information at hand will mistake
+completing your LTE metadata easier and quicker.</p>
+<p>If you have the information at hand, it should take 1 to 2 hours to create a minimal metadata.</p>
+<p>A lot more detailed information can be provided using the optional fields and it is up to you
+how much time you spend providing this information, but the more information you do provide, the
+more informative will be your LTE metadata.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="experimentOverview.html" class="btn btn-neutral float-right" title="Experiment Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="quickstart.html" class="btn btn-neutral float-left" title="Quick Start" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Richard Ostler
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
