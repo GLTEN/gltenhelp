@@ -12,10 +12,7 @@ Every long-term experiment must have an experimental design. In the GLTEN metada
 * Factors, also known as treatments and interventions.
 * Measurements and observations made.
 
-Overtime LTEs modifications can be made to an experiment which change the overall design. The GLTEN metadata schema uses the Design Period concept
-to describe these significant changes. For example, in 1968 the 
- `Broadbalk wheat experiment <https://www.glten.org/experiments/1>`_ introduced crop rotations and modern short stem cultivars; in the GLTEN,
-this is treated as a separate design period to the preceding years. 
+Overtime LTEs modifications can be made to an experiment which change the overall design. The GLTEN metadata schema uses the Design Period concept to describe these significant changes. For example, in 1968 the [Broadbalk wheat experiment](https://www.glten.org/experiments/1) introduced crop rotations and modern short stem cultivars; in the GLTEN, this is treated as a separate design period to the preceding years. 
 
 Not every change needs to be documented as a different design period. The recommendation is to create a new design period for a significant change, 
 such as introducing a new factor. 
@@ -27,7 +24,7 @@ Design Period Name
     The name given to the design period. If you only have one design period this can be left blank, but it is recommended to provide a name for experiments with two or more periods 
 
 Start Year, End Year & ongoing
-    If the experiment only has one period this can be left blank. If youre experiment has two or more design periods you should indicate the start and years for each period. Only the most recent period can be ongoing. 
+    If the experiment only has one period this can be left blank. If your experiment has two or more design periods you should indicate the start and years for each period. Only the most recent period can be ongoing. 
 
 Design type
     Select an appropriate experiment design type from the list. If none matches, select *other* and provide a description in the *Design description* text box.

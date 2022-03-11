@@ -21,6 +21,8 @@ Site Latitude and Site Longitude
     The site latitude and longitude must be provided in decimal degrees, not degrees, minutes and seconds. If you do 
     not know your LTE site location coordinates as decimal degrees you can use https://www.latlong.net/
     to find your site on a map then copy and paste a point coordinate.  
+	
+	**Protecting farm privacy**. For LTEs sited on research institute or university farms, GLTEN recommends providing precise coordinates for the field site. However, if the LTE is located on a private farm you can provide less precise coordinates. 
 
 ****************
 Soil Information
